@@ -4,7 +4,7 @@
   "type": "module",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ysinghal310/vite-create-boilerplate.git"
+    "url": "https://github.com/ysinghal310/create-dev-vite.git"
   },
   "scripts": {
     "dev": "vite",
