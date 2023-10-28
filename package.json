@@ -1,7 +1,11 @@
 {
   "name": "create-vite-boilerplate",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ysinghal310/vite-create-boilerplate.git"
+  },
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
