@@ -1,27 +1,74 @@
-# React + TypeScript + Vite
+# Vite React TypeScript Starter
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[![Vite](https://img.shields.io/badge/Vite-2.x-brightgreen?logo=vite)](https://vitejs.dev/)
+[![React](https://img.shields.io/badge/React-17.x-blue?logo=react)](https://reactjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-4.x-blue?logo=typescript)](https://www.typescriptlang.org/)
+[![ESLint](https://img.shields.io/badge/ESLint-7.x-blue?logo=eslint)](https://eslint.org/)
+[![Prettier](https://img.shields.io/badge/Prettier-2.x-ff69b4?logo=prettier)](https://prettier.io/)
+[![Jest](https://img.shields.io/badge/Jest-27.x-red?logo=jest)](https://jestjs.io/)
+[![React Testing Library](https://img.shields.io/badge/Testing%20Library-12.x-orange?logo=testing-library)](https://testing-library.com/)
+[![Husky](https://img.shields.io/badge/Husky-7.x-yellow?logo=husky)](https://typicode.github.io/husky/#/)
+[![Lint-staged](https://img.shields.io/badge/Lint--staged-11.x-yellowgreen?logo=lint-staged)](https://github.com/okonet/lint-staged)
 
-Currently, two official plugins are available:
+A starter template for a Vite React project with TypeScript, ESLint, Prettier, Jest, and pre-commit linting and formatting using Husky.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- ⚡️ **Vite 4.x:** Blazing fast frontend tooling.
+- ⚛️ **React 18.x:** A declarative, efficient, and flexible JavaScript library for building user interfaces.
+- 🦄 **TypeScript 4.x:** Typed JavaScript at Any Scale.
+- 🚀 **ESLint:** Pluggable linting utility for JavaScript and TypeScript.
+- 💅 **Prettier:** Opinionated code formatter.
+- 🃏 **Jest:** Delightful JavaScript Testing.
+- 🕵️ **React Testing Library:** Simple and complete testing utilities.
+- 🐶 **Husky:** Modern native Git hooks made easy.
+- 🧹 **Lint-staged:** Run linters on pre-committed files.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Getting Started
 
-- Configure the top-level `parserOptions` property like this:
+1. **Clone the repository:**
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+   ```bash
+   git clone https://github.com/ysinghal310/vite-react-boilerplate
+   ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+2. **Install dependencies:**
+
+   ```bash
+   cd your-vite-react-ts-project
+   yarn install or npm install
+   ```
+
+3. **Run the development server:**
+
+   ```bash
+   yarn dev or npm run dev
+   ```
+
+4. **Lint and format code:**
+
+   ```bash
+   yarn lint or npm run lint
+   ```
+
+5. **Run tests:**
+
+   ```bash
+   yarn test or npm run test
+   ```
+
+## Commands
+
+- `yarn dev or npm run dev`: Start the development server.
+- `yarn build or npm run build`: Build the project for production.
+- `yarn lint or npm run lint`: Lint the project using ESLint and format code using Prettier.
+- `yarn test or or npm run test`: Run tests using Jest.
+- `yarn test:watch : or npm run test:watch`: Run tests in watch mode.
+
+## Contributing
+
+Feel free to contribute to this project. Create an issue or submit a pull request if you find any bugs or improvements.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
